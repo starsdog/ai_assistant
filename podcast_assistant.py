@@ -4,7 +4,7 @@ import openai
 import os
 import time
 
-class CSVAssistant:
+class PodcastAssistant:
     def __init__(self, data_folder):
         self.client = OpenAI()
         self.upload_files = []
@@ -80,7 +80,7 @@ def main():
     project_dir = os.path.dirname(os.path.abspath(__file__))
     data_folder = os.path.join(project_dir, "data", "srt")
     
-    assistant = CSVAssistant(data_folder)
+    assistant = PodcastAssistant(data_folder)
 
     while True:
         question = input('輸入你的問題或是輸入quit離開: ')
