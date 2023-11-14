@@ -10,7 +10,7 @@ Referencing OpenAI Assistant, I create my own ai assistant
 ### How to use
 
 - Podcast Assistant: This assistant reads transcript files of podcast and answers related questions about podcast
-
+- Weather Assistant: This assistant is using function call to answer related questions
 
 ### Reference
 [OpenAI Assistant](https://platform.openai.com/docs/assistants/overview)
