@@ -11,6 +11,7 @@ Referencing OpenAI Assistant, I create my own ai assistant
 
 - Podcast Assistant: This assistant reads transcript files of podcast and answers related questions about podcast
 - Weather Assistant: This assistant is using function call to answer related questions
+- Image Assistant: This assistant creates images based on prompt 
 
 ### Reference
 [OpenAI Assistant](https://platform.openai.com/docs/assistants/overview)
